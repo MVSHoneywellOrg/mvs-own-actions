@@ -1,0 +1,14 @@
+name: 'Greeting Action'
+description: 'Says hello to the provided name'
+author: 'YourName'
+inputs:
+  name:
+    description: 'Name to greet'
+    required: false
+    default: 'World'
+outputs:
+  greeting:
+    description: 'The greeting message'
+runs:
+  using: 'node16'
+  main: 'index.js'

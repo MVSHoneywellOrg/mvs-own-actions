@@ -1,0 +1,12 @@
+name: Test Greeting Action
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./  # Use local action in same repo for test
+        with:
+          name: 'GitHub'
