@@ -1,6 +1,6 @@
-name: 'Greeting Action'
+name: 'Greeting1 Action'
 description: 'Says hello to the provided name'
-author: 'YourName'
+author: 'Sowmyashree M V'
 inputs:
   name:
     description: 'Name to greet'
@@ -8,7 +8,7 @@ inputs:
     default: 'World'
 outputs:
   greeting:
-    description: 'The greeting message'
+    description: 'The greeting message to Honeywell Team'
 runs:
   using: 'node16'
   main: 'index.js'
